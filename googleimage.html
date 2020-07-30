@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/simple.css" />
+    <title>google image search</title>
+  </head>
+
+  <body>
+    <header class="top-header">
+      <div class="menu">
+        <div class="menu-link-box">
+          <a class="menu-link" href="#">simple search</a>
+        </div>
+        <div class="menu-link-box">
+          <a class="menu-link" href="#">advanced</a>
+        </div>
+      </div>
+    </header>
+    <div class="logo-container">
+      <img src="./img/googlelogo_color_272x92dp.png" alt="logo" class="logo" />
+    </div>
+    <form action="https://www.google.com/search?tbm=isch">
+      <!--hidden params used by google image search-->
+      <div id="tophf">
+        <input name="hl" value="en" type="hidden" /><input
+          name="tbm"
+          value="isch"
+          type="hidden"
+        /><input
+          name="sxsrf"
+          value="ALeKk03NJ8yCsFP-MaH8GjDX4ZN5UTQIzQ:1595527293496"
+          type="hidden"
+        /><input name="source" type="hidden" value="hp" /><input
+          name="biw"
+          type="hidden"
+          value="1119"
+        /><input name="bih" type="hidden" value="432" /><input
+          value="fdAZX5j6G8asaa-cn8AE"
+          name="ei"
+          type="hidden"
+        /><input
+          value="AINFCbYAAAAAXxnejbOSVQ2wG6CJVXj4CMdvRmsZ8MCz"
+          disabled="true"
+          name="iflsig"
+          type="hidden"
+        />
+      </div>
+      <div class="input-overlay-box">
+        <div class="input-content-box">
+          <!-- continue here -->
+          <input
+            class="gLFyf gsfi"
+            maxlength="2048"
+            name="q"
+            type="text"
+            jsaction="paste:puy29d"
+            aria-autocomplete="both"
+            aria-haspopup="false"
+            autocapitalize="off"
+            autocomplete="off"
+            autocorrect="off"
+            autofocus=""
+            role="combobox"
+            spellcheck="false"
+            title="Search"
+            value=""
+            aria-label="Search"
+            data-ved="0ahUKEwjYrLms-uPqAhVGVhoKHS_OB0gQ39UDCAQ"
+          />
+        </div>
+      </div>
+
+      <input type="submit" value="google images search" />
+    </form>
+  </body>
+</html>
