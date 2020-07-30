@@ -63,6 +63,22 @@ a.menu-link:hover {
 .input-content-box {
   display: flex;
   align-items: center;
-  padding-right: 13px;
-  margin-top: -5px;
+  /* padding-right: 13px; */
+  /* margin-top: -5px; */
+  flex: 100%;
+}
+.input-text-field {
+  display: flex;
+  flex: 100%;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  padding: 0;
+  margin: 0;
+  /* background-color: transparent; */
+  outline: none;
+  /* border: none; */
+  height: 36px;
+  /* line-height: 34px; */
+  line-height: 36px;
+  font-size: 16px;
 }
