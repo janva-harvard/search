@@ -40,13 +40,16 @@ a.menu-link:hover {
   padding-top: 109px;
   padding-bottom: 16px;
   align-items: center;
+  min-width: 980px;
 
 }
 .logo {
   width: 272px;
   height: 92px;
 }
-
+.form-container{
+  min-width: 980px;
+}
 .input-overlay-box {
   display: flex;
   border: 1px solid #dfe1e5;

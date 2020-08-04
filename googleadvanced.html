@@ -4,15 +4,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style/advanced.css">
   <title>google image search</title>
 </head>
 
 <body>
-  <form action="https://www.google.com/search?tbm=isch">
-    <input type="text" name="q" />
-    <input type="submit" value="google advanced search" />
-    <input type="hidden" name="tbm" value="isch" />
-  </form>
+  <div class="advanced-header">Google logo</div>
+  <div class="content-wrapper">
+    <div class="advanced-top">Advanced Search</div>
+    <div class="horizontal-line"></div>
+
+    <div class="advanced-form-container">
+      <form action="https://www.google.com/search?tbm=isch">
+        <div class="form-content-container">
+          <div class="row">
+            <div class="col-label"><label for="">with all these words</label> </div>
+            <div class="col"><input type="text"></div>
+            <div class="col-example">example</div>
+          </div>
+          <div class="row">
+            <div class="col-label"><label for="">with this exact word or phrase</label></div>
+            <div class="col"><input type="text"></div>
+            <div class="col-example">example</div>
+          </div>
+          <div class="row">
+            <div class="col-label"><label for="">Any of these words</label></div>
+            <div class="col"><input type="text"></div>
+            <div class="col-example">example</div>
+
+          </div>
+          <div class="row">
+            <div class="col-label"><label for="">none of these words</label></div>
+            <div class="col"><input type="text"></div>
+            <div class="col-example">example</div>
+
+          </div>
+        </div>
+        <input type="submit" value="Advanced search" />
+        <input type="hidden" name="tbm" value="isch" />
+      </form>
+    </div>
+  </div>
+  <div class="horizontal-line"></div>
+
 </body>
 
 </html>
