@@ -95,6 +95,11 @@ input[type=submit]{
     font-weight: bold;
 
 }
+input[type=submit]:hover{
+    background-color: #357ae8;
+    border: 1px solid #2f5bb7;
+    background-image: linear-gradient(to top,#4d90fe,#357ae8);
+}
 .button-container{
     display: flex;
     justify-content: flex-end;
