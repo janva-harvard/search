@@ -8,6 +8,19 @@ body {
         background: #e5e5e5;
 
 }
+.logo-box{
+    max-width: 152px;
+    min-width: 152px;
+    height: 60px;
+    line-height: 58px;
+    overflow: hidden;
+}
+.logo-image{
+    height: 32px;
+    vertical-align: middle;
+    width: 92px;
+    margin-left: 10px;
+}
 .advanced-top{
     color:#d93025;;
     font-size: 20px;
@@ -62,8 +75,8 @@ input[type=text]{
 .col-example{
     width:33%;
     height:30px;
-    padding-left: 5px;
-    font-size: 13px;
+    font-size: 11px;
+    margin: 0 0 8px 1%;
 }
 input[type=submit]{
     height:30px;
