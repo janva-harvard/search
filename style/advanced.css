@@ -18,10 +18,14 @@ li{
     padding-right: 10px;
 }
 a {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
+    opacity: 0.85;
+
 }
 .logo-box{
     max-width: 152px;
