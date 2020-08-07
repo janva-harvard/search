@@ -27,8 +27,9 @@ stylesheet file located in the style folder, in production this would probably b
 ## About implementation
 
 Much of the styling was taken from googles pages so as to get the same look and feel as on google as possible. The pages try to replicate the same behavior as googles own for instance how things line up, flows outside the view when decreasing size of browser window or in the case of advanced page how content
-get hidden when reaching a certain break point. Some 
-differences can be spotted  such as some missing icons and at which point things get hidden, this is due to lazyness on my part :-). live pages are available [here](https://janva-harvard.github.io/search/) (at github).
+get hidden when reaching a certain break point. I did not implement the "suggestions box" that shows up when typing  the  search query. 
+When writing search query and clicking i'm feeling lucky button, users will currently be alerted about redirection to other page. This behavior differs 
+from googles own pages. Other minor differences that can be spotted  are some missing icons and at which point things get hidden, this is due to laziness on my part :-). live pages are available [here](https://janva-harvard.github.io/search/) (at github).
 
 
 
