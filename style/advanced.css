@@ -12,7 +12,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-
 }
 li{
     display: inline;
@@ -20,6 +19,9 @@ li{
 }
 a {
     text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 .logo-box{
     max-width: 152px;
@@ -48,7 +50,6 @@ a {
     width: 96%;
     margin: 40px 0 2% 45px;
     display: flex;
-        
 }
 form{
     flex: 100%;
@@ -122,5 +123,14 @@ input[type=submit]:hover{
         display: none;
     }
 } 
-
+.label-header{
+    color:#333;
+    font-size: 100%;
+}
+.example-header{
+    color: #777;
+    font-size: 13px;
+    font-size: 100%;
+    font-weight: 700;
+}
 
