@@ -67,7 +67,7 @@ a.menu-link:hover {
 }
 .spyglass-box{
   display:flex;
-margin-left:10px;  
+  margin-left:10px;  
   padding-right:10px;
 }
 .spyglass-svg-span{
