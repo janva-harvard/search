@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.top-header {
+  font-size: 13px;
+  width: 100%;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-link-box {
+  /* shrink 0, grow 0 basis auto */
+  /* flex: 0 0 auto; */
+  padding-right: 15px;
+  display: inline-block;
+  margin-left: 0;
+  margin-left: 0;
+}
+.menu-link {
+  text-decoration: none;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 24px;
+  vertical-align: middle;
+}
+a.menu-link:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+.logo-container {
+  /*old school way should probably use flex instead */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  width: 100%;
+  padding-top: 109px;
+  padding-bottom: 16px;
+  align-items: center;
+  min-width: 980px;
+
+}
+.logo {
+  width: 272px;
+  height: 92px;
+}
+.form-container{
+  min-width: 980px;
+}
+.input-overlay-box {
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  /*move to front */
+  z-index: 3;
+  border-radius: 24px;
+  height: 44px;
+  margin: 0 auto;
+  width: 534px;
+}
+.input-overlay-box:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.26);
+  border-color: rgba(223, 225, 229, 0);
+}
+.spyglass-box{
+  display:flex;
+  margin-left:10px;  
+  padding-right:10px;
+}
+.spyglass-svg-span{
+  color:#9aa0a6;
+  fill:currentColor;
+  height: 20px;
+  width: 20px;
+}
+.spyglass-svg-span svg{
+  display:block;
+  width: 100%;
+  height: 100%;
+}
+.input-content-box {
+  display: flex;
+  align-items: center;
+  /* padding-right: 13px; */
+  /* margin-top: -5px; */
+  flex: 100%;
+}
+.input-text-field {
+  display: flex;
+  flex: 100%;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 36px;
+  /* line-height: 34px; */
+  line-height: 36px;
+  font-size: 16px;
+}
+.camera-button{
+  background-color: transparent;
+  outline:none;
+  border: none;
+  cursor: pointer;
+
+}
+.camera-svg-span{
+  color:#9aa0a6;
+  fill: currentColor;
+  margin-right: 10px;
+}
